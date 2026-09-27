@@ -1,0 +1,22 @@
+{
+  "name": "Marius Bosman Tattoos",
+  "short_name": "Bosman Tattoos",
+  "description": "Old-school tattoo and body piercing studio in Brackenfell, Cape Town.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e0b09",
+  "theme_color": "#0e0b09",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

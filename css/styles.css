@@ -618,3 +618,8 @@ p { margin: 0 0 1.1em; }
   .social { gap: 14px; padding: 16px 16px; }
   .social span { letter-spacing: .02em; }
 }
+
+/* Without JavaScript nothing is hidden waiting for a scroll reveal. */
+.no-js .reveal, .no-js .shot { opacity: 1; transform: rotate(var(--rot, 0deg)); }
+.no-js .shot__ink img { --r: 160%; }
+.no-js .drip line { stroke-dashoffset: 0; }

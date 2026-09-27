@@ -17,3 +17,12 @@ python -m http.server 5173
 - `js/main.js` — nav, scroll reveals, ink-bleed heading effect, section drips, ink-reveal on work photos, lightbox.
 - `css/styles.css` — all styling; colour tokens on `:root`.
 - `assets/` — logo badge and shop-sign banner.
+
+## SEO
+
+Live URL: `https://duplessisetienne.github.io/mbosmantattoos/`. If a custom domain is added later, find-and-replace that URL in `index.html`, `404.html`, `robots.txt` and `sitemap.xml`.
+
+- `<head>` in `index.html`: title, description, canonical, Open Graph / Twitter share tags, icons, and JSON-LD (`TattooParlor`, `WebSite`, `Person`) for Google local results.
+- `robots.txt` + `sitemap.xml` (includes the work photos for Google Images). Bump `<lastmod>` when content changes.
+- `assets/og-image.jpg` (1200×630) is the preview shown when the link is shared on WhatsApp/Facebook.
+- `404.html` is self-contained because GitHub Pages serves it at any path.
