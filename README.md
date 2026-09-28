@@ -20,7 +20,7 @@ python -m http.server 5173
 
 ## SEO
 
-Live URL: `https://duplessisetienne.github.io/mbosmantattoos/`. If a custom domain is added later, find-and-replace that URL in `index.html`, `404.html`, `robots.txt` and `sitemap.xml`.
+Live URL: `https://mariusbosmantattoos.co.za/` (custom domain via the `CNAME` file; also reachable at `https://duplessisetienne.github.io/mbosmantattoos/`, which redirects).
 
 - `<head>` in `index.html`: title, description, canonical, Open Graph / Twitter share tags, icons, and JSON-LD (`TattooParlor`, `WebSite`, `Person`) for Google local results.
 - `robots.txt` + `sitemap.xml` (includes the work photos for Google Images). Bump `<lastmod>` when content changes.

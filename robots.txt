@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://duplessisetienne.github.io/mbosmantattoos/sitemap.xml
+Sitemap: https://mariusbosmantattoos.co.za/sitemap.xml
